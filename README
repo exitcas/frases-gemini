@@ -1,0 +1,14 @@
+Para instalar esto necesitarás:
+
+- OpenSSL y Nim previamente instalado.
+- Gemserv (servidor de Gemini).
+
+Compilar y montar:
+1. Descargar este repositorio Git en una nueva carpeta, o clonarlo con "git clone https://github.com/exitcas/frases-gemini.git".
+2. Ejecutar "nim c frases.nim" para compilar el código fuente.
+3. Crear una nueva carpeta en tu servidor y luego copiar el ejecutable y el archivo "api.gmi" allí.
+4. Renombrar el ejecutable a "index.gmi".
+5. ¡Listo!
+
+Recursos utilizados:
+- "Gemini CGI guide" (en inglés) - Tilde.team Wiki - https://tilde.team/wiki/gemini-cgi
