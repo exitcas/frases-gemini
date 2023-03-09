@@ -1,0 +1,20 @@
+# API
+
+de Las Frases
+
+## Rutas (HTTPS)
+
+Endpoint: https://frases.atico.eu.org
+
+* [GET] /.<json/xml>
+        * Te da una frase random
+* [GET] /all.<json/xml>
+        * Te da un listado de todas las frases disponibles
+
+Esta API solo emite resultados en formato JSON y XML
+
+=> Home         index.gmi
+
+=> Las Frases   https://frases.atico.eu.org/
+
+Made by ~lucas (exitcas)
